@@ -7,7 +7,7 @@ public class App {
   public static void main(String[] args) {
     handCardMachine();
   }
-  
+
   public static void handCardMachine() {
     System.out.println("请输入需要抽取牌的张数 ： ");
     int handCardNumber = new Scanner(System.in).nextInt();

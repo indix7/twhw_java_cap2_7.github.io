@@ -11,7 +11,7 @@ public class Card {
 
     @Override
     public String toString() {
-        return (this.flower + this.suit + " ");
+        return (this.flower + this.suit);
     }
 
     public String getFlower() {

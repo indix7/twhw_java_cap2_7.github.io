@@ -31,7 +31,7 @@ public class CardMachine {
     public void drawCard(int handCardNumber) {
         Random random = new Random();
         for (int i = 0; i < handCardNumber; i++){
-            System.out.print(this.shuffleACard(random.nextInt(cards.size())));
+            System.out.print(this.shuffleACard(random.nextInt(cards.size())) + " ");
         }
 
     }
